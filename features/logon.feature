@@ -11,4 +11,6 @@ Feature: Authentication
   
 	Scenario: Login Failed (wrong credentials)
   	Given I have User Credentials
-    
+    And I can see the Login Form
+    When I enter my Credentials
+    Then I should see the Login Failed View
