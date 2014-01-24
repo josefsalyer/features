@@ -9,5 +9,6 @@ Feature: Authentication
     When I enter my Credentials
     Then I should see the Login Success View
   
-	Scenario Outline: Login Failed (wrong credentials)
+	Scenario: Login Failed (wrong credentials)
   	Given I have User Credentials
+    
